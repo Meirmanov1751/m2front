@@ -17,7 +17,7 @@ const Index = () => {
     <Main
       meta={
         <Meta
-          title="Home"
+          title="Главная"
           description="M2."
         />
       }

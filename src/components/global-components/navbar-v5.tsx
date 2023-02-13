@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import Link  from 'next/link';
 import Image from "next/image";
+import useUser from "../../data/useUser";
+import {logout} from "../../lib/api-auth";
+import axios from "../../utils/axios";
 
 
-class NavbarV5 extends Component {
+const NavbarV5 = () =>{
 
-    render() {
+
         let publicUrl = process.env.PUBLIC_URL+'/'
         let imgattr = 'logo'
         let anchor = '#'
+	    const {loading, isLoggedIn, mutate} = useUser();
+
+		console.log('logged in', isLoggedIn)
         return (
 		<div>
 			{/* HEADER AREA START (header-3) */}
@@ -108,15 +114,31 @@ class NavbarV5 extends Component {
 							<li>
 							{/* mini-cart 2 */}
 							<div className="mini-cart-icon mini-cart-icon-2">
-								<Link  href="/login" className="ltn__utilize-toggle">
-								<h6><span>Войти</span> </h6>
-								</Link >
+								{!isLoggedIn ? (
+									<Link href="/login/" className="ltn__utilize-toggle">
+										<h6><span>Войти</span> </h6>
+									</Link >
+								) : (
+									<>
+									<Link href="/login" className="ltn__utilize-toggle">
+										<h6><span>Профиль</span> </h6>
+									</Link >
+									<a onClick={async ()=>{
+										logout();
+										delete axios.defaults.headers['x-access-token'];
+										await mutate();
+									}} className="ltn__utilize-toggle">
+									<h6><span>Выйти</span> </h6>
+									</a >
+									</>
+								)}
+
 							</div>
 							</li>
 							<li>
 							{/* Mobile Menu Button */}
 							<div className="mobile-menu-toggle d-lg-none">
-								<Link  href="/login" className="ltn__utilize-toggle">
+								<Link href="/login/index" className="ltn__utilize-toggle">
 								<svg viewBox="0 0 800 600">
 									<path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top" />
 									<path d="M300,320 L540,320" id="middle" />
@@ -312,7 +334,7 @@ class NavbarV5 extends Component {
 			</div>
 		</div>
         )
-    }
+
 }
 
 

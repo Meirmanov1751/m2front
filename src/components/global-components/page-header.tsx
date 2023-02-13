@@ -22,7 +22,7 @@ class PageHeader extends Component <any> {
                 <div className="ltn__breadcrumb-list">
                   <ul>
                     <li><Link href="/"><span className="ltn__secondary-color"><i
-                      className="fas fa-home"/></span> Home</Link></li>
+                      className="fas fa-home"/></span> Главная</Link></li>
                     <li>{Subheader}</li>
                   </ul>
                 </div>
