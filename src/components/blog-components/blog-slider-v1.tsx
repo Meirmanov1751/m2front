@@ -24,7 +24,7 @@ class BlogSlider extends Component <any> {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details/blog-details"><Image src={img1} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -38,7 +38,7 @@ class BlogSlider extends Component <any> {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link href="/blog-details">10 проектов для начинающих</Link></h3>
+                  <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">10 проектов для начинающих</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -46,7 +46,7 @@ class BlogSlider extends Component <any> {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link href="/blog-details">Подробнее</Link>
+                      <Link href="/blog-details/blog-details">Подробнее</Link>
                     </div>
                   </div>
                 </div>
@@ -57,7 +57,7 @@ class BlogSlider extends Component <any> {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details/blog-details"><Image src={img1} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -71,7 +71,7 @@ class BlogSlider extends Component <any> {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link href="/blog-details">10 проектов для начинающих</Link></h3>
+                  <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">10 проектов для начинающих</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -79,7 +79,7 @@ class BlogSlider extends Component <any> {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link href="/blog-details">Подробнее</Link>
+                      <Link href="/blog-details/blog-details">Подробнее</Link>
                     </div>
                   </div>
                 </div>
@@ -90,7 +90,7 @@ class BlogSlider extends Component <any> {
             <div className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details/blog-details"><Image src={img1} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -104,7 +104,7 @@ class BlogSlider extends Component <any> {
                       </li>
                     </ul>
                   </div>
-                  <h3 className="ltn__blog-title"><Link href="/blog-details">10 проектов для начинающих</Link></h3>
+                  <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">10 проектов для начинающих</Link></h3>
                   <div className="ltn__blog-meta-btn">
                     <div className="ltn__blog-meta">
                       <ul>
@@ -112,7 +112,7 @@ class BlogSlider extends Component <any> {
                       </ul>
                     </div>
                     <div className="ltn__blog-btn">
-                      <Link href="/blog-details">Подробнее</Link>
+                      <Link href="/blog-details/blog-details">Подробнее</Link>
                     </div>
                   </div>
                 </div>

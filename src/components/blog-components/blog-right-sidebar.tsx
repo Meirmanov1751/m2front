@@ -16,7 +16,7 @@ class BlogList extends Component {
                 {/* Blog Item */}
                 <div className="ltn__blog-item ltn__blog-item-5 go-top">
                   <div className="ltn__blog-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
+                    <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
                   </div>
                   <div className="ltn__blog-brief">
                     <div className="ltn__blog-meta">
@@ -26,15 +26,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">Lorem ipsum dolor sit amet, consecte
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">Lorem ipsum dolor sit amet, consecte
                       cing elit, sed do eiusmod tempor.</Link></h3>
                     <div className="ltn__blog-meta">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -55,7 +55,7 @@ class BlogList extends Component {
                         </ul>
                       </div>
                       <div className="ltn__blog-btn">
-                        <Link href="/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
+                        <Link href="/blog-details/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
                       </div>
                     </div>
                   </div>
@@ -78,15 +78,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">Adipisicing elit, sed do eiusmod tempor
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">Adipisicing elit, sed do eiusmod tempor
                       incididunt ut labore et dolore.</Link></h3>
                     <div className="ltn__blog-meta">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -107,7 +107,7 @@ class BlogList extends Component {
                         </ul>
                       </div>
                       <div className="ltn__blog-btn">
-                        <Link href="/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
+                        <Link href="/blog-details/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
                       </div>
                     </div>
                   </div>
@@ -116,13 +116,13 @@ class BlogList extends Component {
                 <div className="ltn__blog-item ltn__blog-item-5 ltn__blog-item-gallery">
                   <div className="ltn__blog-gallery-active slick-arrow-1 slick-arrow-1-inner">
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/33.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/33.jpg"} alt="Image"/></Link>
                     </div>
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/34.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/34.jpg"} alt="Image"/></Link>
                     </div>
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
                     </div>
                   </div>
                   <div className="ltn__blog-brief">
@@ -133,15 +133,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">Magna aliqua. Ut enim ad minim venia
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">Magna aliqua. Ut enim ad minim venia
                       m, quis nostrud exercitation ullamco</Link></h3>
                     <div className="ltn__blog-meta">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -162,7 +162,7 @@ class BlogList extends Component {
                         </ul>
                       </div>
                       <div className="ltn__blog-btn">
-                        <Link href="/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
+                        <Link href="/blog-details/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
                       </div>
                     </div>
                   </div>
@@ -181,15 +181,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">Laboris nisi ut aliquip ex ea commodo
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">Laboris nisi ut aliquip ex ea commodo
                       consequat. Duis aute irure dolor.</Link></h3>
                     <div className="ltn__blog-meta">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -210,7 +210,7 @@ class BlogList extends Component {
                         </ul>
                       </div>
                       <div className="ltn__blog-btn">
-                        <Link href="/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
+                        <Link href="/blog-details/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
                       </div>
                     </div>
                   </div>
@@ -225,15 +225,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">In reprehenderit in voluptate velit esse
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">In reprehenderit in voluptate velit esse
                       cillum dolore eu fugiat nulla pariatur.</Link></h3>
                     <div className="ltn__blog-meta">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -254,7 +254,7 @@ class BlogList extends Component {
                         </ul>
                       </div>
                       <div className="ltn__blog-btn">
-                        <Link href="/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
+                        <Link href="/blog-details/blog-details"><i className="fas fa-arrow-right"/>Read more</Link>
                       </div>
                     </div>
                   </div>
@@ -265,16 +265,16 @@ class BlogList extends Component {
                   data-bs-bg="img/blog/3.jpg">
                   <div className="ltn__blog-brief go-top">
                     <blockquote>
-                      <Link href="/blog-details">Excepteur sint occaecat cupida
+                      <Link href="/blog-details/blog-details">Excepteur sint occaecat cupida
                         tat non proident, sunt in.</Link>
                     </blockquote>
                     <div className="ltn__blog-meta mb-0">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020
@@ -294,15 +294,15 @@ class BlogList extends Component {
                         </li>
                       </ul>
                     </div>
-                    <h3 className="ltn__blog-title"><Link href="/blog-details">Culpa qui officia deserunt mollit anim
+                    <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">Culpa qui officia deserunt mollit anim
                       id est laborum. Sed ut perspiciatis</Link></h3>
                     <div className="ltn__blog-meta mb-0">
                       <ul>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-eye"/>232 Views</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-eye"/>232 Views</Link>
                         </li>
                         <li>
-                          <Link href="/blog-details"><i className="far fa-comments"/>35 Comments</Link>
+                          <Link href="/blog-details/blog-details"><i className="far fa-comments"/>35 Comments</Link>
                         </li>
                         <li className="ltn__blog-date">
                           <i className="far fa-calendar-alt"/>June 22, 2020

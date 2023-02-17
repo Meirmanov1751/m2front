@@ -3,12 +3,19 @@ import Link from 'next/link';
 import Image from 'next/image'
 import Comments from './comments';
 import Sidebar from './sidebar';
+import parse from 'html-react-parser';
+import ReactMarkdown from 'react-markdown'
+import useNews from "../../data/useNews";
 
-
-class BlogDetails extends Component {
-  render() {
+const BlogDetails = function (props: any) {
     let publicUrl = process.env.PUBLIC_URL + '/'
-    let imagealt = 'image'
+
+    const date = new Date(props.data.createdAt)
+    const formattedDate = date.toLocaleDateString("ru", {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    })
 
     return (
       <div className="ltn__page-details-area ltn__blog-details-area mb-120">
@@ -20,12 +27,11 @@ class BlogDetails extends Component {
                   <div className="ltn__blog-meta">
                     <ul>
                       <li className="ltn__blog-category">
-                        <Link href="/shop">Real Estate</Link>
+                        <Link href="/shop">Недвижимость</Link>
                       </li>
                     </ul>
                   </div>
-                  <h2 className="ltn__blog-title">Real estate is property consisting of land and the buildings on it,
-                    along with its
+                  <h2 className="ltn__blog-title">{props.data.title}
                   </h2>
                   <div className="ltn__blog-meta">
                     <ul>
@@ -34,92 +40,15 @@ class BlogDetails extends Component {
                           Ethan</Link>
                       </li>
                       <li className="ltn__blog-date">
-                        <i className="far fa-calendar-alt"/>June 22, 2020
+                        <i className="far fa-calendar-alt"/>{formattedDate}
                       </li>
-                      <li>
+                      {/*<li>
                         <Link href="#"><i className="far fa-comments"/>35 Comments</Link>
-                      </li>
+                      </li>*/}
                     </ul>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-                    qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                    dolore magnam aliquam quaerat voluptatem.</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt.</p>
-                  <Image src={publicUrl + "assets/img/blog/35.jpg"} alt="Image"/>
-                  <h2>A cleansing hot shower or bath</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia. </p>
-                  <hr/>
-                  <h2>Setting the mood with incense</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia. </p>
-                  <hr/>
-                  <h2>Setting the mood with incense</h2>
-                  <div className="list-item-with-icon-2">
-                    <ul>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
-                      <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
-                    </ul>
-                  </div>
-                  <blockquote>
-                    <h6 className="ltn__secondary-color mt-0">BY HETMAYAR</h6>
-                    Viral dreamcatcher keytar typewriter, aest hetic offal umami. Aesthetic polaroid pug pitchfork
-                    post-ironic.
-                  </blockquote>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem accusantium. </p>
-                  <Image className="alignleft" src={publicUrl + "assets/img/blog/blog-details/1.jpg"} alt="Image"/>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
-                    error sit voluptatem.</p>
-                  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur expedita velit laboriosam est
-                    sint laborum eos assumenda, quam voluptatem adipisci, reprehenderit ut nobis blanditiis
-                    perspiciatis!</p>
-                  <div className="row">
-                    <div className="col-lg-6">
-                      <Image src={publicUrl + "assets/img/service/31.jpg"} alt="Image"/>
-                      <label>Image Caption Here</label>
-                    </div>
-                    <div className="col-lg-6">
-                      <Image src={publicUrl + "assets/img/service/32.jpg"} alt="Image"/>
-                    </div>
-                  </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, amet, fuga omnis eligendi sed
-                    cupiditate molestias enim autem animi est tempore ipsa corporis. Recusandae, quia.</p>
+                  {parse(`${props.data.content}`)}
+
                 </div>
                 {/* blog-tags-social-media */}
                 <div className="ltn__blog-tags-social-media mt-80 row">
@@ -168,8 +97,8 @@ class BlogDetails extends Component {
                       {/* Blog Item */}
                       <div className="ltn__blog-item ltn__blog-item-6">
                         <div className="ltn__blog-img">
-                          <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/11.jpg"}
-                          alt="Image"/></Link>
+                          <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/11.jpg"}
+                                                                         alt="Image"/></Link>
                         </div>
                         <div className="ltn__blog-brief">
                           <div className="ltn__blog-meta">
@@ -179,7 +108,7 @@ class BlogDetails extends Component {
                               </li>
                             </ul>
                           </div>
-                          <h3 className="ltn__blog-title"><Link href="/blog-details">A series of iOS 7 inspire
+                          <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">A series of iOS 7 inspire
                             vector icons sense.</Link></h3>
                           <p>Lorem ipsum dolor sit amet, conse ctet ur adipisicing elit, sed doing.</p>
                         </div>
@@ -189,8 +118,8 @@ class BlogDetails extends Component {
                       {/* Blog Item */}
                       <div className="ltn__blog-item ltn__blog-item-6">
                         <div className="ltn__blog-img">
-                          <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/12.jpg"}
-                                                            alt="Image"/></Link>
+                          <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/12.jpg"}
+                                                                         alt="Image"/></Link>
                         </div>
                         <div className="ltn__blog-brief">
                           <div className="ltn__blog-meta">
@@ -200,7 +129,7 @@ class BlogDetails extends Component {
                               </li>
                             </ul>
                           </div>
-                          <h3 className="ltn__blog-title"><Link href="/blog-details">A series of iOS 7 inspire
+                          <h3 className="ltn__blog-title"><Link href="/blog-details/blog-details">A series of iOS 7 inspire
                             vector icons sense.</Link></h3>
                           <p>Lorem ipsum dolor sit amet, conse ctet ur adipisicing elit, sed doing.</p>
                         </div>
@@ -216,7 +145,6 @@ class BlogDetails extends Component {
         </div>
       </div>
     )
-  }
 }
 
 export default BlogDetails;

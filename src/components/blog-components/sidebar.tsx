@@ -272,10 +272,10 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/5.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/team/5.jpg"} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
-                    <h6><Link href="/blog-details">Lorem ipsum dolor sit
+                    <h6><Link href="/blog-details/blog-details">Lorem ipsum dolor sit
                       cing elit, sed do.</Link></h6>
                     <div className="ltn__blog-meta">
                       <ul>
@@ -290,10 +290,10 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/6.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/team/6.jpg"} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
-                    <h6><Link href="/blog-details">Lorem ipsum dolor sit
+                    <h6><Link href="/blog-details/blog-details">Lorem ipsum dolor sit
                       cing elit, sed do.</Link></h6>
                     <div className="ltn__blog-meta">
                       <ul>
@@ -308,10 +308,10 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/7.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/team/7.jpg"} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
-                    <h6><Link href="/blog-details">Lorem ipsum dolor sit
+                    <h6><Link href="/blog-details/blog-details">Lorem ipsum dolor sit
                       cing elit, sed do.</Link></h6>
                     <div className="ltn__blog-meta">
                       <ul>
@@ -326,10 +326,10 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/8.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details/blog-details"><Image src={publicUrl + "assets/img/team/8.jpg"} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
-                    <h6><Link href="/blog-details">Lorem ipsum dolor sit
+                    <h6><Link href="/blog-details/blog-details">Lorem ipsum dolor sit
                       cing elit, sed do.</Link></h6>
                     <div className="ltn__blog-meta">
                       <ul>
@@ -350,7 +350,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><i className="fab fa-twitter"/></Link>
+                    <Link href="/blog-details/blog-details"><i className="fab fa-twitter"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <p>Carsafe - #Gutenberg ready
@@ -392,7 +392,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><i className="fab fa-twitter"/></Link>
+                    <Link href="/blog-details/blog-details"><i className="fab fa-twitter"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <p>Carsafe - #Gutenberg ready
