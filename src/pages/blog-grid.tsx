@@ -6,8 +6,11 @@ import Footer from "../components/global-components/footer";
 import {Main} from "../templates/Main";
 import {Meta} from "../layouts/Meta";
 import BlogGrid from "../components/blog-components/blog-grid";
+import useNews from "../data/useNews";
 
 const BlogGridPage = () => {
+  let news: any[] = useNews()
+
   return <Main meta={
     <Meta
       title="Новости"
@@ -16,7 +19,7 @@ const BlogGridPage = () => {
   }>
     <NavbarV5/>
     <PageHeader headertitle="Новости"/>
-    <BlogGrid/>
+    <BlogGrid news={news}/>
     <CallToActionV1/>
     <Footer/>
   </Main>

@@ -120,7 +120,7 @@ const NavbarV5 = () =>{
 									</Link >
 								) : (
 									<>
-									<Link href="/login" className="ltn__utilize-toggle">
+									<Link href="/portfolio" className="ltn__utilize-toggle">
 										<h6><span>Профиль</span> </h6>
 									</Link >
 									<a onClick={async ()=>{

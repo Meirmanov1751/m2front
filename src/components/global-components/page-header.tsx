@@ -6,7 +6,7 @@ class PageHeader extends Component <any> {
   render() {
 
     let HeaderTitle = this.props.headertitle;
-    let publicUrl = process.env.PUBLIC_URL + '/'
+    let publicUrl = process.env["NEXT_PUBLIC_URL"] + '/'
     let Subheader = this.props.subheader ? this.props.subheader : HeaderTitle
     let CustomClass = this.props.customclass ? this.props.customclass : ''
     let Img = this.props.Img ? this.props.Img : '14.jpg'
