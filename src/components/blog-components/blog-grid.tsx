@@ -87,7 +87,7 @@ const BlogGrid = function (props: any) {
                     }
                   )
                 }
-                <li onClick={() => setPage(page + 1)}><Link href="#"><i className="fas fa-angle-double-right"/></Link>
+                <li onClick={() => setPage((page == (pageCount.length-1)) ? page : page + 1)}><Link href="#"><i className="fas fa-angle-double-right"/></Link>
                 </li>
               </ul>
             </div>

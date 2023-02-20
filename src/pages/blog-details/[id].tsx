@@ -17,13 +17,13 @@ const BlogDetailsPage = () => {
 
   return <Main meta={
     <Meta
-      title={newsDataId.id}
+      title={newsData && newsDataId.id}
       description="M2."
     />
   }>
     <NavbarV5/>
     <PageHeader headertitle={newsDataId.title}/>
-    <BlogDetails  data={newsDataId}/>
+    <BlogDetails  data={newsDataId && newsDataId}/>
     <CallToActionV1/>
     <Footer/>
   </Main>
