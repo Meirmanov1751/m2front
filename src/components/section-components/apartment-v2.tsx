@@ -50,7 +50,7 @@ class ApartmentV2 extends Component <any> {
                     </div>
                     <div className="col-lg-6">
                       <div className="apartments-plan-img">
-                        <Image src={publicUrl + "assets/img/others/10.png"} alt="#"/>
+                        <Image  src={"assets/img/others/10.png"} fill={true} alt="#"/>
                       </div>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ class ApartmentV2 extends Component <any> {
                     </div>
                     <div className="col-lg-6">
                       <div className="apartments-plan-img">
-                        <Image src={publicUrl + "assets/img/others/10.png"} alt="#"/>
+                        <Image  src={"assets/img/others/10.png"} fill={true} alt="#"/>
                       </div>
                     </div>
                   </div>
@@ -108,7 +108,7 @@ class ApartmentV2 extends Component <any> {
                     </div>
                     <div className="col-lg-6">
                       <div className="apartments-plan-img">
-                        <Image src={publicUrl + "assets/img/others/10.png"} alt="#"/>
+                        <Image  src={"assets/img/others/10.png"} fill={true} alt="#"/>
                       </div>
                     </div>
                   </div>
@@ -137,7 +137,7 @@ class ApartmentV2 extends Component <any> {
                     </div>
                     <div className="col-lg-6">
                       <div className="apartments-plan-img">
-                        <Image src={publicUrl + "assets/img/others/10.png"} alt="#"/>
+                        <Image  src={"assets/img/others/10.png"} fill={true} alt="#"/>
                       </div>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ class ApartmentV2 extends Component <any> {
                     </div>
                     <div className="col-lg-6">
                       <div className="apartments-plan-img">
-                        <Image src={publicUrl + "assets/img/others/10.png"} alt="#"/>
+                        <Image  src={"assets/img/others/10.png"} fill={true} alt="#"/>
                       </div>
                     </div>
                   </div>

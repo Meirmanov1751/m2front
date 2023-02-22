@@ -14,7 +14,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/4.jpg"} alt="Image"/>
+                <Image  src={"assets/img/team/4.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">Rosalina D. William</Link></h4>
@@ -32,7 +32,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/2.jpg"} alt="Image"/>
+                <Image  src={"assets/img/team/2.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">Kelian Anderson</Link></h4>
@@ -50,7 +50,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/3.jpg"} alt="Image"/>
+                <Image  src={"assets/img/team/3.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">Miranda H. Halim</Link></h4>
@@ -68,7 +68,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/1.jpg"} alt="Image"/>
+                <Image  src={"assets/img/team/1.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">Damble D. Browni.</Link></h4>
@@ -86,7 +86,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/5.jpg"} alt="Image"/>
+                <Image  src={ "assets/img/team/5.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">Aiden Benjamin</Link></h4>
@@ -104,7 +104,7 @@ class TeamV2 extends Component {
           <div className="col-lg-4 col-sm-6">
             <div className="ltn__team-item ltn__team-item-3---">
               <div className="team-img">
-                <Image src={publicUrl + "assets/img/team/6.jpg"} alt="Image"/>
+                <Image  src={ "assets/img/team/5.jpg"} fill={true} alt="Image"/>
               </div>
               <div className="team-info">
                 <h4><Link href="/team-details">James Carter</Link></h4>

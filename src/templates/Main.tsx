@@ -24,8 +24,8 @@ const Main = (props: IMainProps) => (
           <link rel="stylesheet" href="/assets/css/responsive.css"/>
 
       </Head>
-      {/*<Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" strategy="beforeInteractive"></Script>*/}
-      {/*<Script src="/assets/js/plugins.js" strategy="beforeInteractive"></Script>*/}
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" strategy="beforeInteractive"></Script>
+      <Script src="/assets/js/plugins.js" strategy="beforeInteractive"></Script>
       {/*<Script src="/assets/js/main.js"></Script>*/}
       <div >{props.children}</div>
 

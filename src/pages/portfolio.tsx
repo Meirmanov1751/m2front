@@ -7,10 +7,12 @@ import Footer from "../components/global-components/footer";
 import PortfolioV1 from "../components/section-components/portfolio-v1";
 import CallToActonV2 from "../components/section-components/call-to-action-v2";
 import SponsorV2 from "../components/section-components/sponsor-v2";
+import {Main} from "../templates/Main";
+import {Meta} from "../layouts/Meta";
 
 
 const Portfolio_V1 = () => {
-  return <div>
+  return <Main meta={<Meta title="Портфолио" description="Портфолио" />}>
     <Navbar/>
     <PageHeader headertitle="Our Portfolio" subheader="Portfolio"/>
     <PortfolioV1/>
@@ -19,7 +21,7 @@ const Portfolio_V1 = () => {
     <SponsorV2/>
     <CallToActionV1/>
     <Footer/>
-  </div>
+  </Main>
 }
 
 export default Portfolio_V1

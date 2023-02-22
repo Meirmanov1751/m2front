@@ -12,7 +12,7 @@ class Comments extends Component {
         <div className="ltn__comment-area mb-50">
           <div className="ltn-author-introducing clearfix">
             <div className="author-img">
-              <Image src={publicUrl + "assets/img/blog/author.jpg"} alt="Author Image"/>
+              <Image src={"assets/img/blog/author.jpg"} fill={true} alt="Author Image"/>
             </div>
             <div className="author-info">
               <h6>Written by</h6>
@@ -27,7 +27,7 @@ class Comments extends Component {
               <li>
                 <div className="ltn__comment-item clearfix">
                   <div className="ltn__commenter-img">
-                    {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="Image" width={100}/>*/}
+                    {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="Image" width={100}/>*/}
                   </div>
                   <div className="ltn__commenter-comment">
                     <h6><a href="#">Adam Smit</a></h6>
@@ -41,7 +41,7 @@ class Comments extends Component {
                   <li>
                     <div className="ltn__comment-item clearfix">
                       <div className="ltn__commenter-img">
-                        <Image src={publicUrl + "assets/img/testimonial/3.jpg"} alt="Image"/>
+                        <Image  src={"assets/img/testimonial/3.jpg"} fill={true} fill={true} alt="Image"/>
                       </div>
                       <div className="ltn__commenter-comment">
                         <h6><a href="#">Adam Smit</a></h6>
@@ -57,7 +57,7 @@ class Comments extends Component {
               <li>
                 <div className="ltn__comment-item clearfix">
                   <div className="ltn__commenter-img">
-                    <Image src={publicUrl + "assets/img/testimonial/4.jpg"} alt="Image"/>
+                    <Image  src={"assets/img/testimonial/4.jpg"} fill={true} alt="Image"/>
                   </div>
                   <div className="ltn__commenter-comment">
                     <h6><a href="#">Adam Smit</a></h6>

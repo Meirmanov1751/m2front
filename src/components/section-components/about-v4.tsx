@@ -12,10 +12,10 @@ class AboutV4 extends Component {
         <div className="row">
           <div className="col-lg-6 align-self-center">
             <div className="about-us-img-wrap about-img-left">
-              <Image src={publicUrl + "assets/img/others/13.png"} alt="About Us Image"/>
+              <Image  src={"assets/img/others/13.png"} fill={true} alt="About Us Image"/>
               <div className="about-us-img-info about-us-img-info-2 about-us-img-info-3">
                 <div className="ltn__video-img ltn__animation-pulse1">
-                  <Image src={publicUrl + "assets/img/others/8.png"} alt="video popup bg image"/>
+                  <Image  src={"assets/img/others/8.png"} fill={true} alt="video popup bg image"/>
                   <a className="ltn__video-icon-2 ltn__video-icon-2-border---"
                      href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0"
                      data-rel="lightcase:myCollection">

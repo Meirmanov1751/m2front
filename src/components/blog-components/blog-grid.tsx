@@ -16,7 +16,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/1.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/1.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -48,7 +48,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/2.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/2.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -80,7 +80,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/3.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/3.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -112,7 +112,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/4.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/4.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -144,7 +144,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/5.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/5.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -176,7 +176,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/6.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/6.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -208,7 +208,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/7.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/7.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -240,7 +240,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/8.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/8.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -272,7 +272,7 @@ class BlogGrid extends Component {
             <div className="col-lg-4 col-sm-6 col-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/2.jpg"} alt="#"/></Link>
+                  <Link href="/blog-details"><Image  src={"assets/img/blog/2.jpg"} fill={true} alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">

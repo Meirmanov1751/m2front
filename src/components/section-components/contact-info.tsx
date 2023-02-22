@@ -13,7 +13,7 @@ class ContactInfo extends Component {
           <div className="col-lg-4">
             <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
               <div className="ltn__contact-address-icon">
-                <Image src={publicUrl + "assets/img/icons/10.png"} alt="Icon Image"/>
+                <Image  src={"assets/img/icons/10.png"} fill={true} alt="Icon Image"/>
               </div>
               <h3>Email Address</h3>
               <p>info@webmail.com <br/>
@@ -23,7 +23,7 @@ class ContactInfo extends Component {
           <div className="col-lg-4">
             <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
               <div className="ltn__contact-address-icon">
-                <Image src={publicUrl + "assets/img/icons/11.png"} alt="Icon Image"/>
+                <Image  src={"assets/img/icons/11.png"} fill={true} alt="Icon Image"/>
               </div>
               <h3>Phone Number</h3>
               <p>+0123-456789 <br/> +987-6543210</p>
@@ -32,7 +32,7 @@ class ContactInfo extends Component {
           <div className="col-lg-4">
             <div className="ltn__contact-address-item ltn__contact-address-item-3 box-shadow">
               <div className="ltn__contact-address-icon">
-                <Image src={publicUrl + "assets/img/icons/12.png"} alt="Icon Image"/>
+                <Image  src={"assets/img/icons/12.png"} fill={true} alt="Icon Image"/>
               </div>
               <h3>Office Address</h3>
               <p>18/A, New Born Town Hall <br/>

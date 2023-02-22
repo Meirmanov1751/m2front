@@ -13,7 +13,7 @@ class TeamDetails extends Component {
           <div className="col-lg-4">
             <div className="ltn__team-details-member-info text-center mb-40">
               <div className="team-details-img">
-                <Image src={publicUrl + "assets/img/team/4.jpg"} alt="Team Member Image"/>
+                <Image  src={"assets/img/team/4.jpg"} fill={true} alt="Team Member Image"/>
               </div>
               <h2>Rosalina D. William</h2>
               <h6 className="text-uppercase ltn__secondary-color">Property Seller</h6>

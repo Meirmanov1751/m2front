@@ -13,7 +13,6 @@ const NavbarV5 = () =>{
         let imgattr = 'logo'
         let anchor = '#'
 	    const {loading, isLoggedIn, mutate} = useUser();
-
 		console.log('logged in', isLoggedIn)
         return (
 		<div>
@@ -112,6 +111,7 @@ const NavbarV5 = () =>{
 							</div>
 							</li>
 							<li>
+
 							{/* mini-cart 2 */}
 							<div className="mini-cart-icon mini-cart-icon-2">
 								{!isLoggedIn ? (
@@ -120,7 +120,7 @@ const NavbarV5 = () =>{
 									</Link >
 								) : (
 									<>
-									<Link href="/login" className="ltn__utilize-toggle">
+									<Link href="/my-account" className="ltn__utilize-toggle">
 										<h6><span>Профиль</span> </h6>
 									</Link >
 									<a onClick={async ()=>{

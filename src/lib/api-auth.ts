@@ -2,7 +2,7 @@
 import axios from '../utils/axios';
 import {AxiosError} from "axios";
 
-export async function login(params: {username: string, password: string}) {
+export async function login(params: {username: string, password: string}):Promise<{success: any, error: any}> {
     try{
         const response = await axios.post('/api/auth/signin/', params)
         localStorage.setItem('token', response.data.accessToken)

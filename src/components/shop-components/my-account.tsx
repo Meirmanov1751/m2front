@@ -53,7 +53,7 @@ class MyAccount extends Component {
                           <div className="ltn__comment-area mb-50">
                             <div className="ltn-author-introducing clearfix">
                               <div className="author-img">
-                                <Image src={publicUrl + "assets/img/blog/author.jpg"} alt="Author Image"/>
+                                <Image src={"assets/img/blog/author.jpg"} fill={true} alt="Author Image"/>
                               </div>
                               <div className="author-info">
                                 <h6>Agent of Property</h6>
@@ -223,7 +223,7 @@ class MyAccount extends Component {
                               <tbody>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"}
+                                  <Link href="/product-details"><Image src={"assets/img/product-3/2.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -249,7 +249,7 @@ class MyAccount extends Component {
                               </tr>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"}
+                                  <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -275,7 +275,7 @@ class MyAccount extends Component {
                               </tr>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/7.jpg"}
+                                  <Link href="/product-details"><Image  src={"assets/img/product-3/7.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -333,7 +333,7 @@ class MyAccount extends Component {
                               <tbody>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"}
+                                  <Link href="/product-details"><Image src={"assets/img/product-3/2.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -359,7 +359,7 @@ class MyAccount extends Component {
                               </tr>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"}
+                                  <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -385,7 +385,7 @@ class MyAccount extends Component {
                               </tr>
                               <tr>
                                 <td className="ltn__my-properties-img go-top">
-                                  <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/7.jpg"}
+                                  <Link href="/product-details"><Image  src={"assets/img/product-3/7.jpg"} fill={true}
                                                                        alt="#"/></Link>
                                 </td>
                                 <td>
@@ -1068,7 +1068,7 @@ class MyAccount extends Component {
                                   <div className="card">
                                     <h5 className="collapsed ltn__card-title" data-toggle="collapse"
                                         data-target="#faq-item-2-3" aria-expanded="false">
-                                      PayPal <Image src={publicUrl + "assets/img/icons/payment-3.png"} alt="#"/>
+                                      PayPal <Image  src={"assets/img/icons/payment-3.png"} fill={true} alt="#"/>
                                     </h5>
                                     <div id="faq-item-2-3" className="collapse" data-parent="#checkout_accordion_1">
                                       <div className="card-body">

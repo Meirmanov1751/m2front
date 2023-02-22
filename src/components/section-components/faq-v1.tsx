@@ -39,7 +39,7 @@ class FaqV1 extends Component {
                   <div id="faq-item-2-2" className="collapse show" data-bs-parent="#accordion_2">
                     <div className="card-body">
                       <div className="ltn__video-img alignleft">
-                        <Image src={publicUrl + "assets/img/bg/17.jpg"} alt="video popup bg image"/>
+                        <Image  src={"assets/img/bg/17.jpg"} fill={true} alt="video popup bg image"/>
                         <a className="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----"
                            href="https://www.youtube.com/embed/LjCzPp-MK48?autoplay=1&showinfo=0"
                            data-rel="lightcase:myCollection">
@@ -166,7 +166,7 @@ class FaqV1 extends Component {
               </div>
               {/* Banner Widget */}
               <div className="widget ltn__banner-widget go-top">
-                <Link href="shop.html"><Image src={publicUrl + "assets/img/banner/banner-3.jpg"}
+                <Link href="shop.html"><Image  src={"assets/img/banner/banner-3.jpg"} fill={true}
                                               alt="Banner Image"/></Link>
               </div>
             </aside>

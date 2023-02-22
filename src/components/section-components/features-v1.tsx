@@ -22,7 +22,7 @@ class FeaturesV1 extends Component <any> {
           <div className="col-lg-4 col-sm-6 col-12">
             <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
               <div className="ltn__feature-icon">
-                <Image src={publicUrl + "assets/img/icons/icon-img/21.png"} alt="#"/>
+                <Image  src={"assets/img/icons/icon-img/21.png"} fill={true} alt="#"/>
               </div>
               <div className="ltn__feature-info">
                 <h3><Link href="/service-details">Buy a home</Link></h3>
@@ -36,7 +36,7 @@ class FeaturesV1 extends Component <any> {
           <div className="col-lg-4 col-sm-6 col-12">
             <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1 active">
               <div className="ltn__feature-icon">
-                <Image src={publicUrl + "assets/img/icons/icon-img/22.png"} alt="#"/>
+                <Image  src={"assets/img/icons/icon-img/22.png"} fill={true} alt="#"/>
               </div>
               <div className="ltn__feature-info">
                 <h3><Link href="/service-details">Rent a home</Link></h3>
@@ -50,7 +50,7 @@ class FeaturesV1 extends Component <any> {
           <div className="col-lg-4 col-sm-6 col-12">
             <div className="ltn__feature-item ltn__feature-item-6 text-center bg-white  box-shadow-1">
               <div className="ltn__feature-icon">
-                <Image src={publicUrl + "assets/img/icons/icon-img/23.png"} alt="#"/>
+                <Image  src={"assets/img/icons/icon-img/23.png"} fill={true} alt="#"/>
               </div>
               <div className="ltn__feature-info">
                 <h3><Link href="/service-details">Sell a home</Link></h3>

@@ -18,7 +18,7 @@ class WishList extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      <Link href="/product-details/"><Image src={publicUrl + "assets/img/product/1.png"}
+                      <Link href="/product-details/"><Image   src={"assets/img/product/1.png"} fill={true} fill={true}
                                                             alt="#"/></Link>
                     </td>
                     <td className="cart-product-info">
@@ -34,7 +34,7 @@ class WishList extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      {/*<Link href="/product-details/"><Image src={publicUrl + "assets/img/product/2.png"}*/}
+                      {/*<Link href="/product-details/"><Image  src={"assets/img/product/2.png"} fill={true}*/}
                       {/*                                      alt="#"/></Link>*/}
                     </td>
                     <td className="cart-product-info">
@@ -50,7 +50,7 @@ class WishList extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      {/*<Link href="/product-details/"><Image src={publicUrl + "assets/img/product/4.png"}*/}
+                      {/*<Link href="/product-details/"><Image  src={"assets/img/product/4.png"} fill={true}*/}
                       {/*                                      alt="#"/></Link>*/}
                     </td>
                     <td className="cart-product-info">

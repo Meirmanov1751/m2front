@@ -5,6 +5,12 @@ import HomeImg1 from '../../assets/img/Luxemburg.jpg'
 import HomeImg2 from '../../assets/img/home2.jpg'
 import HomeImg3 from '../../assets/img/home4.jpg'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// import Swiper and modules styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 class BannerV2 extends Component {
   render() {
@@ -12,13 +18,14 @@ class BannerV2 extends Component {
     let publicUrl = process.env.PUBLIC_URL + '/'
     let imagealt = 'image'
 
-    return <div
+    return <Swiper
+        slidesPerView={1}
       className="ltn__slider-area ltn__slider-11  ltn__slider-11-slide-item-count-show--- ltn__slider-11-pagination-count-show--- section-bg-1">
       <div className="ltn__slider-11-inner">
         <div className="ltn__slider-11-active">
           {/* slide-item */}
-          <div
-            className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
+          <SwiperSlide
+            className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11 slick-current">
             <div className="ltn__slide-item-inner">
               <div className="container">
                 <div className="row">
@@ -53,9 +60,9 @@ class BannerV2 extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </SwiperSlide>
           {/* slide-item */}
-          <div
+          <SwiperSlide
             className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
             <div className="ltn__slide-item-inner">
               <div className="container">
@@ -91,9 +98,9 @@ class BannerV2 extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </SwiperSlide>
           {/* slide-item */}
-          <div
+          <SwiperSlide
             className="ltn__slide-item ltn__slide-item-2 ltn__slide-item-3-normal ltn__slide-item-3 ltn__slide-item-11">
             <div className="ltn__slide-item-inner">
               <div className="container">
@@ -129,7 +136,7 @@ class BannerV2 extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </SwiperSlide>
         </div>
         {/* slider-4-pagination */}
         <div className="ltn__slider-11-pagination-count">
@@ -166,7 +173,7 @@ class BannerV2 extends Component {
           </div>
         </div>
       </div>
-    </div>
+    </Swiper>
 
   }
 }

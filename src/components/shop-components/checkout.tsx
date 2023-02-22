@@ -183,7 +183,7 @@ class Checkout extends Component {
                 <div className="card">
                   <h5 className="collapsed ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq-item-2-3"
                       aria-expanded="false">
-                    PayPal <Image src={publicUrl + "assets/img/icons/payment-3.png"} alt="#"/>
+                    PayPal <Image  src={"assets/img/icons/payment-3.png"} fill={true} alt="#"/>
                   </h5>
                   <div id="faq-item-2-3" className="collapse" data-bs-parent="#checkout_accordion_1">
                     <div className="card-body">

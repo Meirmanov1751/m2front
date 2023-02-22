@@ -13,7 +13,7 @@ class PortfolioDetails extends Component {
           <div className="col-lg-8">
             <div className="ltn__page-details-inner ltn__portfolio-details-inner">
               <div className="ltn__blog-img">
-                <Image src={publicUrl + "assets/img/service/22.jpg"} alt="Image"/>
+                <Image  src={"assets/img/service/22.jpg"} fill={true} alt="Image"/>
               </div>
               <p><span className="ltn__first-letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -31,7 +31,7 @@ class PortfolioDetails extends Component {
                 <div className="col-lg-6">
                   <div className="ltn__testimonial-item ltn__testimonial-item-3">
                     <div className="ltn__testimonial-img">
-                      <Image src={publicUrl + "assets/img/blog/7.jpg"} alt="Image"/>
+                      <Image  src={"assets/img/blog/7.jpg"} fill={true} alt="Image"/>
                     </div>
                     <div className="ltn__testimoni-info">
                       <p>Lorem ipsum dolor sit amet, conse
@@ -40,7 +40,7 @@ class PortfolioDetails extends Component {
                         et dolore magna aliqua. </p>
                       <div className="ltn__testimoni-info-inner">
                         <div className="ltn__testimoni-img">
-                          {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="Image"/>*/}
+                          {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="Image"/>*/}
                         </div>
                         <div className="ltn__testimoni-name-designation">
                           <h4>Jacob William</h4>
@@ -56,7 +56,7 @@ class PortfolioDetails extends Component {
                 <div className="col-lg-6">
                   <div className="ltn__testimonial-item ltn__testimonial-item-3">
                     <div className="ltn__testimonial-img">
-                      <Image src={publicUrl + "assets/img/blog/8.jpg"} alt="Image"/>
+                      <Image  src={"assets/img/blog/8.jpg"} fill={true} alt="Image"/>
                     </div>
                     <div className="ltn__testimoni-info">
                       <p>Lorem ipsum dolor sit amet, conse
@@ -65,7 +65,7 @@ class PortfolioDetails extends Component {
                         et dolore magna aliqua. </p>
                       <div className="ltn__testimoni-info-inner">
                         <div className="ltn__testimoni-img">
-                          {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="Image"/>*/}
+                          {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="Image"/>*/}
                         </div>
                         <div className="ltn__testimoni-name-designation">
                           <h4>Jacob William</h4>
@@ -89,11 +89,11 @@ class PortfolioDetails extends Component {
                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
               <div className="row">
                 <div className="col-lg-6">
-                  <Image src={publicUrl + "assets/img/service/33.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/service/33.jpg"} fill={true} alt="Image"/>
                   <label>Image Caption</label>
                 </div>
                 <div className="col-lg-6">
-                  <Image src={publicUrl + "assets/img/service/34.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/service/34.jpg"} fill={true} alt="Image"/>
                 </div>
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -153,7 +153,7 @@ class PortfolioDetails extends Component {
               </div>
               {/* Banner Widget */}
               <div className="widget ltn__banner-widget go-top">
-                <Link href="/shop"><Image src={publicUrl + "assets/img/banner/banner-2.jpg"} alt="Banner Image"/></Link>
+                <Link href="/shop"><Image  src={"assets/img/banner/banner-2.jpg"} fill={true} alt="Banner Image"/></Link>
               </div>
             </aside>
           </div>

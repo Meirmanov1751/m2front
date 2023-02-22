@@ -15,7 +15,7 @@ class Sidebar extends Component {
           {/* Author Widget */}
           <div className="widget ltn__author-widget">
             <div className="ltn__author-widget-inner text-center">
-              <Image src={publicUrl + "assets/img/team/4.jpg"} alt="Image"/>
+              <Image  src={"assets/img/team/4.jpg"} fill={true} alt="Image"/>
               <h5>Rosalina D. Willaimson</h5>
               <small>Traveller/Photographer</small>
               <div className="product-ratting">
@@ -65,7 +65,7 @@ class Sidebar extends Component {
               <li>
                 <div className="top-rated-product-item clearfix go-top">
                   <div className="top-rated-product-img">
-                    {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/1.png"} alt="#"/></Link>*/}
+                    {/*<Link href="/product-details"><Image   src={"assets/img/product/1.png"} fill={true} fill={true} alt="#"/></Link>*/}
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -88,7 +88,7 @@ class Sidebar extends Component {
               <li>
                 <div className="top-rated-product-item clearfix">
                   <div className="top-rated-product-img">
-                    {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/2.png"} alt="#"/></Link>*/}
+                    {/*<Link href="/product-details"><Image  src={"assets/img/product/2.png"} fill={true} alt="#"/></Link>*/}
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -111,7 +111,7 @@ class Sidebar extends Component {
               <li>
                 <div className="top-rated-product-item clearfix">
                   <div className="top-rated-product-img">
-                    {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/3.png"} alt="#"/></Link>*/}
+                    {/*<Link href="/product-details"><Image  src={"assets/img/product/3.png"} fill={true} alt="#"/></Link>*/}
                   </div>
                   <div className="top-rated-product-info">
                     <div className="product-ratting">
@@ -152,10 +152,10 @@ class Sidebar extends Component {
               <div className="col-12">
                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                   <div className="product-img">
-                    <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/6.jpg"} alt="#"/></Link>
+                    <Link href="/product-details"><Image  src={"assets/img/product-3/6.jpg"} fill={true} fill={true} alt="#"/></Link>
                     <div className="real-estate-agent">
                       <div className="agent-img">
-                        <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                        <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                           alt="#"/></Link>
                       </div>
                     </div>
@@ -190,10 +190,10 @@ class Sidebar extends Component {
               <div className="col-12">
                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                   <div className="product-img">
-                    <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/4.jpg"} alt="#"/></Link>
+                    <Link href="/product-details"><Image  src={"assets/img/product-3/4.jpg"} fill={true} fill={true} alt="#"/></Link>
                     <div className="real-estate-agent">
                       <div className="agent-img">
-                        <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                        <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                           alt="#"/></Link>
                       </div>
                     </div>
@@ -228,10 +228,10 @@ class Sidebar extends Component {
               <div className="col-12">
                 <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                   <div className="product-img">
-                    <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/5.jpg"} alt="#"/></Link>
+                    <Link href="/product-details"><Image   src={"assets/img/product-3/5.jpg"} fill={true} fill={true} alt="#"/></Link>
                     <div className="real-estate-agent">
                       <div className="agent-img">
-                        <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                        <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                           alt="#"/></Link>
                       </div>
                     </div>
@@ -272,7 +272,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/5.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details"><Image  src={ "assets/img/team/5.jpg"} fill={true} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <h6><Link href="/blog-details">Lorem ipsum dolor sit
@@ -290,7 +290,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/6.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details"><Image  src={ "assets/img/team/5.jpg"} fill={true} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <h6><Link href="/blog-details">Lorem ipsum dolor sit
@@ -308,7 +308,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/7.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details"><Image  src={ "assets/img/team/5.jpg"} fill={true} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <h6><Link href="/blog-details">Lorem ipsum dolor sit
@@ -326,7 +326,7 @@ class Sidebar extends Component {
               <li>
                 <div className="popular-post-widget-item clearfix">
                   <div className="popular-post-widget-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/team/8.jpg"} alt="#"/></Link>
+                    <Link href="/blog-details"><Image  src={"assets/img/team/8.jpg"} fill={true} alt="#"/></Link>
                   </div>
                   <div className="popular-post-widget-brief">
                     <h6><Link href="/blog-details">Lorem ipsum dolor sit
@@ -446,7 +446,7 @@ class Sidebar extends Component {
           </div>
           {/* Banner Widget */}
           <div className="widget ltn__banner-widget d-none go-top">
-            <Link href="/shop"><Image src={publicUrl + "assets/img/banner/2.jpg"} alt="#"/></Link>
+            <Link href="/shop"><Image  src={"assets/img/banner/2.jpg"} fill={true} alt="#"/></Link>
           </div>
         </aside>
       </div>

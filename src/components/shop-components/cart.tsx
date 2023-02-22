@@ -18,7 +18,7 @@ class CaetV1 extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/1.png"} alt="#"/></Link>*/}
+                      {/*<Link href="/product-details"><Image   src={"assets/img/product/1.png"} fill={true} fill={true} alt="#"/></Link>*/}
                     </td>
                     <td className="cart-product-info">
                       <h4><Link href="/product-details">Brake Conversion Kit</Link></h4>
@@ -34,7 +34,7 @@ class CaetV1 extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/2.png"} alt="#"/></Link>*/}
+                      {/*<Link href="/product-details"><Image  src={"assets/img/product/2.png"} fill={true} alt="#"/></Link>*/}
                     </td>
                     <td className="cart-product-info">
                       <h4><Link href="/product-details">OE Replica Wheels</Link></h4>
@@ -50,7 +50,7 @@ class CaetV1 extends Component {
                   <tr>
                     <td className="cart-product-remove">x</td>
                     <td className="cart-product-image">
-                      {/*<Link href="/product-details"><Image src={publicUrl + "assets/img/product/3.png"} alt="#"/></Link>*/}
+                      {/*<Link href="/product-details"><Image  src={"assets/img/product/3.png"} fill={true} alt="#"/></Link>*/}
                     </td>
                     <td className="cart-product-info">
                       <h4><Link href="/product-details">Wheel Bearing Retainer</Link></h4>

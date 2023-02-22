@@ -30,7 +30,7 @@ class BlogDetails extends Component {
                   <div className="ltn__blog-meta">
                     <ul>
                       <li className="ltn__blog-author go-top">
-                        <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                        <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                           Ethan</Link>
                       </li>
                       <li className="ltn__blog-date">
@@ -57,7 +57,7 @@ class BlogDetails extends Component {
                     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt.</p>
-                  <Image src={publicUrl + "assets/img/blog/35.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/blog/35.jpg"} fill={true} alt="Image"/>
                   <h2>A cleansing hot shower or bath</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -93,7 +93,7 @@ class BlogDetails extends Component {
                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus
                     error sit voluptatem accusantium. </p>
-                  <Image className="alignleft" src={publicUrl + "assets/img/blog/blog-details/1.jpg"} alt="Image"/>
+                  <Image className="alignleft"  src={"assets/img/blog/blog-details/1.jpg"} fill={true} alt="Image"/>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
                     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
@@ -111,11 +111,11 @@ class BlogDetails extends Component {
                     perspiciatis!</p>
                   <div className="row">
                     <div className="col-lg-6">
-                      <Image src={publicUrl + "assets/img/service/31.jpg"} alt="Image"/>
+                      <Image  src={"assets/img/service/31.jpg"} fill={true} alt="Image"/>
                       <label>Image Caption Here</label>
                     </div>
                     <div className="col-lg-6">
-                      <Image src={publicUrl + "assets/img/service/32.jpg"} alt="Image"/>
+                      <Image  src={"assets/img/service/32.jpg"} fill={true} alt="Image"/>
                     </div>
                   </div>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, amet, fuga omnis eligendi sed
@@ -168,7 +168,7 @@ class BlogDetails extends Component {
                       {/* Blog Item */}
                       <div className="ltn__blog-item ltn__blog-item-6">
                         <div className="ltn__blog-img">
-                          <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/11.jpg"}
+                          <Link href="/blog-details"><Image  src={"assets/img/blog/blog-details/11.jpg"} fill={true}
                           alt="Image"/></Link>
                         </div>
                         <div className="ltn__blog-brief">
@@ -189,7 +189,7 @@ class BlogDetails extends Component {
                       {/* Blog Item */}
                       <div className="ltn__blog-item ltn__blog-item-6">
                         <div className="ltn__blog-img">
-                          <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/blog-details/12.jpg"}
+                          <Link href="/blog-details"><Image  src={"assets/img/blog/blog-details/12.jpg"} fill={true}
                                                             alt="Image"/></Link>
                         </div>
                         <div className="ltn__blog-brief">

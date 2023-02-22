@@ -16,19 +16,25 @@ const Login = function () {
     };
 
   const { register, handleSubmit, watch, formState: { errors } } = useForm<Inputs>();
+  const [apiError, setApiError] = useState('');
   const {  loading,
     isLoggedIn,
     user,
     mutate,} = useUser();
   const onSubmit: SubmitHandler<Inputs> = async data => {
     setIsFormDisabled(true);
+    setApiError('');
     const {success, error} = await login({username: data.username, password: data.password})
     if(success) {
-      console.log('suc',success);
       await mutate();
-      Router.replace('/')
+      Router.replace('/');
     }
     else{
+      if(error && error.response && error.response.data.message){
+        if(error.response.data.message=="Invalid Password!"){
+          setApiError('Неправильный логин или пароль')
+        }
+      }
       console.log('err', error);
     }
     setIsFormDisabled(false);
@@ -49,8 +55,9 @@ const Login = function () {
           <div className="row">
             <div className="col-lg-6">
               <div className="account-login-inner">
-                <form method="GET" className="ltn__form-box contact-form-box" onSubmit={handleSubmit(onSubmit)}>
 
+                <form method="GET" className="ltn__form-box contact-form-box" onSubmit={handleSubmit(onSubmit)}>
+                  {apiError && <p className="text-danger">{apiError}</p>}
                   <input type="email" placeholder="Электронная почта*" {...register("username", {required: true})}  />
                   <input type="password" placeholder="Пароль*" {...register("password", {required: true})}/>
                   <div className="btn-wrapper mt-0">

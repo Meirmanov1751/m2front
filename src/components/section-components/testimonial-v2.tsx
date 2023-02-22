@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Image from 'next/image'
-import img1 from '../../assets/img/23.jpg'
+
 
 
 class TestimonialV2 extends Component {
@@ -8,7 +8,7 @@ class TestimonialV2 extends Component {
     let publicUrl = process.env.PUBLIC_URL + '/'
     let imagealt = 'image'
 
-    return <div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-65" data-bs-bg={img1}>
+    return <div className="ltn__testimonial-area section-bg-1--- bg-image-top pt-115 pb-65" style={{background: `url(/assets/img/23.jpg)`}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -27,7 +27,7 @@ class TestimonialV2 extends Component {
                 <div className="ltn__testimoni-author-ratting">
                   <div className="ltn__testimoni-info-inner">
                     <div className="ltn__testimoni-img">
-                      {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="#"/>*/}
+                      {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="#"/>*/}
                     </div>
                     <div className="ltn__testimoni-name-designation">
                       <h5>Ғалижан Толыбаев</h5>
@@ -60,7 +60,7 @@ class TestimonialV2 extends Component {
                 <div className="ltn__testimoni-author-ratting">
                   <div className="ltn__testimoni-info-inner">
                     <div className="ltn__testimoni-img">
-                      {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="#"/>*/}
+                      {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="#"/>*/}
                     </div>
                     <div className="ltn__testimoni-name-designation">
                       <h5>Ғалижан Толыбаев</h5>
@@ -93,7 +93,7 @@ class TestimonialV2 extends Component {
                 <div className="ltn__testimoni-author-ratting">
                   <div className="ltn__testimoni-info-inner">
                     <div className="ltn__testimoni-img">
-                      {/*<Image src={publicUrl + "assets/img/testimonial/1.jpg"} alt="#"/>*/}
+                      {/*<Image  src={"assets/img/testimonial/1.jpg"} fill={true} alt="#"/>*/}
                     </div>
                     <div className="ltn__testimoni-name-designation">
                       <h5>Ғалижан Толыбаев</h5>

@@ -23,7 +23,7 @@ class ProductSliderV2 extends Component {
           <div className="col-lg-4">
             <div className="ltn__search-by-place-item">
               <div className="search-by-place-img">
-                <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/1.jpg"} alt="#"/></Link>
+                <Link href="/product-details"><Image src={"assets/img/product-3/1.jpg"} fill={true} alt="#"/></Link>
                 <div className="search-by-place-badge">
                   <ul>
                     <li>2 Properties</li>
@@ -42,7 +42,7 @@ class ProductSliderV2 extends Component {
           <div className="col-lg-4">
             <div className="ltn__search-by-place-item">
               <div className="search-by-place-img">
-                <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"} alt="#"/></Link>
+                <Link href="/product-details"><Image src={"assets/img/product-3/2.jpg"} fill={true} alt="#"/></Link>
                 <div className="search-by-place-badge">
                   <ul>
                     <li>5 Properties</li>
@@ -61,7 +61,7 @@ class ProductSliderV2 extends Component {
           <div className="col-lg-4">
             <div className="ltn__search-by-place-item">
               <div className="search-by-place-img">
-                <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"} alt="#"/></Link>
+                <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true} alt="#"/></Link>
                 <div className="search-by-place-badge">
                   <ul>
                     <li>9 Properties</li>
@@ -80,7 +80,7 @@ class ProductSliderV2 extends Component {
           <div className="col-lg-4">
             <div className="ltn__search-by-place-item">
               <div className="search-by-place-img">
-                <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"} alt="#"/></Link>
+                <Link href="/product-details"><Image src={"assets/img/product-3/2.jpg"} fill={true} alt="#"/></Link>
                 <div className="search-by-place-badge">
                   <ul>
                     <li>5 Properties</li>

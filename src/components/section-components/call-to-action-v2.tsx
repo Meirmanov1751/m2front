@@ -29,10 +29,10 @@ class CallToActonV2 extends Component {
       </div>
       <div className="ltn__call-to-4-img-1">
         {/* <img src="img/bg/12.png" alt="#"> */}
-        <Image src={publicUrl + "assets/img/slider/21.png"} alt="#"/>
+        <Image  src={"assets/img/slider/21.png"} fill={true} alt="#"/>
       </div>
       <div className="ltn__call-to-4-img-2">
-        <Image src={publicUrl + "assets/img/bg/11.png"} alt="#"/>
+        <Image  src={"assets/img/bg/11.png"} fill={true} alt="#"/>
       </div>
     </div>
   }

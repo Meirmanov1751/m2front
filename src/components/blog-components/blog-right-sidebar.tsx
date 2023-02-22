@@ -16,7 +16,7 @@ class BlogList extends Component {
                 {/* Blog Item */}
                 <div className="ltn__blog-item ltn__blog-item-5 go-top">
                   <div className="ltn__blog-img">
-                    <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
+                    <Link href="/blog-details"><Image  src={"assets/img/blog/31.jpg"} fill={true} alt="Image"/></Link>
                   </div>
                   <div className="ltn__blog-brief">
                     <div className="ltn__blog-meta">
@@ -49,7 +49,7 @@ class BlogList extends Component {
                       <div className="ltn__blog-meta">
                         <ul>
                           <li className="ltn__blog-author">
-                            <Link href="/blog-grid"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                            <Link href="/blog-grid"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                               Ethan</Link>
                           </li>
                         </ul>
@@ -63,7 +63,7 @@ class BlogList extends Component {
                 {/* Blog Item (Video) */}
                 <div className="ltn__blog-item ltn__blog-item-5 ltn__blog-item-video">
                   <div className="ltn__video-img">
-                    <Image src={publicUrl + "assets/img/blog/32.jpg"} alt="video popup bg image"/>
+                    <Image  src={"assets/img/blog/32.jpg"} fill={true} alt="video popup bg image"/>
                     <a className="ltn__video-icon-2 ltn__secondary-bg ltn__video-icon-2-border---"
                        href="https://www.youtube.com/embed/X7R-q9rsrtU?autoplay=1&showinfo=0"
                        data-rel="lightcase:myCollection">
@@ -101,7 +101,7 @@ class BlogList extends Component {
                       <div className="ltn__blog-meta">
                         <ul>
                           <li className="ltn__blog-author">
-                            <Link href="/blog-grid"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                            <Link href="/blog-grid"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                               Ethan</Link>
                           </li>
                         </ul>
@@ -116,13 +116,13 @@ class BlogList extends Component {
                 <div className="ltn__blog-item ltn__blog-item-5 ltn__blog-item-gallery">
                   <div className="ltn__blog-gallery-active slick-arrow-1 slick-arrow-1-inner">
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/33.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details"><Image  src={"assets/img/blog/33.jpg"} fill={true} alt="Image"/></Link>
                     </div>
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/34.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details"><Image  src={"assets/img/blog/34.jpg"} fill={true} alt="Image"/></Link>
                     </div>
                     <div className="ltn__blog-gallery-item">
-                      <Link href="/blog-details"><Image src={publicUrl + "assets/img/blog/31.jpg"} alt="Image"/></Link>
+                      <Link href="/blog-details"><Image  src={"assets/img/blog/31.jpg"} fill={true} alt="Image"/></Link>
                     </div>
                   </div>
                   <div className="ltn__blog-brief">
@@ -156,7 +156,7 @@ class BlogList extends Component {
                       <div className="ltn__blog-meta">
                         <ul>
                           <li className="ltn__blog-author">
-                            <Link href="/blog-grid"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                            <Link href="/blog-grid"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                               Ethan</Link>
                           </li>
                         </ul>
@@ -204,7 +204,7 @@ class BlogList extends Component {
                       <div className="ltn__blog-meta">
                         <ul>
                           <li className="ltn__blog-author">
-                            <Link href="/blog-grid"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                            <Link href="/blog-grid"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                               Ethan</Link>
                           </li>
                         </ul>
@@ -248,7 +248,7 @@ class BlogList extends Component {
                       <div className="ltn__blog-meta">
                         <ul>
                           <li className="ltn__blog-author">
-                            <Link href="/blog-grid"><Image src={publicUrl + "assets/img/blog/author.jpg"} alt="#"/>By:
+                            <Link href="/blog-grid"><Image src={"assets/img/blog/author.jpg"} fill={true} alt="#"/>By:
                               Ethan</Link>
                           </li>
                         </ul>

@@ -25,7 +25,7 @@ class HistoryV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 align-self-center">
                         <div className="about-us-img-wrap about-img-left">
-                          <Image src={publicUrl + "assets/img/img-slide/12.jpg"} alt="Image"/>
+                          <Image  src={"assets/img/img-slide/12.jpg"} fill={true} alt="Image"/>
                           <div className="ltn__history-icon">
                             <i className="fas fa-award"/>
                           </div>
@@ -52,7 +52,7 @@ class HistoryV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 align-self-center">
                         <div className="about-us-img-wrap about-img-left">
-                          <Image src={publicUrl + "assets/img/img-slide/11.jpg"} alt="Image"/>
+                          <Image  src={"assets/img/img-slide/11.jpg"} fill={true} alt="Image"/>
                           <div className="ltn__history-icon">
                             <i className="icon-award"/>
                           </div>
@@ -80,7 +80,7 @@ class HistoryV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 align-self-center">
                         <div className="about-us-img-wrap about-img-left">
-                          <Image src={publicUrl + "assets/img/img-slide/13.jpg"} alt="Image"/>
+                          <Image  src={"assets/img/img-slide/13.jpg"} fill={true} alt="Image"/>
                           <div className="ltn__history-icon">
                             <i className="fas fa-medal"/>
                           </div>
@@ -108,7 +108,7 @@ class HistoryV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 align-self-center">
                         <div className="about-us-img-wrap about-img-left">
-                          <Image src={publicUrl + "assets/img/img-slide/12.jpg"} alt="Image"/>
+                          <Image  src={"assets/img/img-slide/12.jpg"} fill={true} alt="Image"/>
                           <div className="ltn__history-icon">
                             <i className="icon-award"/>
                           </div>
@@ -136,7 +136,7 @@ class HistoryV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 align-self-center">
                         <div className="about-us-img-wrap about-img-left">
-                          <Image src={publicUrl + "assets/img/img-slide/11.jpg"} alt="Image"/>
+                          <Image  src={"assets/img/img-slide/11.jpg"} fill={true} alt="Image"/>
                           <div className="ltn__history-icon">
                             <i className="fas fa-trophy"/>
                           </div>

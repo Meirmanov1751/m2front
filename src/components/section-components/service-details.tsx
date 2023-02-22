@@ -13,7 +13,7 @@ class ServiceDetails extends Component {
           <div className="col-lg-8">
             <div className="ltn__page-details-inner ltn__service-details-inner">
               <div className="ltn__blog-img">
-                <Image src={publicUrl + "assets/img/service/21.jpg"} alt="Image"/>
+                <Image  src={"assets/img/service/21.jpg"} fill={true} alt="Image"/>
               </div>
               <p><span className="ltn__first-letter">L</span>orem ipsum dolor sit amet, consectetur adipisicing elit,
                 sed do eiusmod tempor incidi dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -29,11 +29,11 @@ class ServiceDetails extends Component {
                 aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione. </p>
               <div className="row">
                 <div className="col-lg-6">
-                  <Image src={publicUrl + "assets/img/service/31.jpg"} alt="image"/>
+                  <Image  src={"assets/img/service/31.jpg"} fill={true} alt="image"/>
                   <label>Image caption here.</label>
                 </div>
                 <div className="col-lg-6">
-                  <Image src={publicUrl + "assets/img/service/32.jpg"} alt="image"/>
+                  <Image  src={"assets/img/service/32.jpg"} fill={true} alt="image"/>
                 </div>
               </div>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
@@ -92,7 +92,7 @@ class ServiceDetails extends Component {
               </div>
               {/* Banner Widget */}
               <div className="widget ltn__banner-widget go-top">
-                <Link href="/shop"><Image src={publicUrl + "assets/img/banner/banner-1.jpg"} alt="Banner Image"/></Link>
+                <Link href="/shop"><Image  src={"assets/img/banner/banner-1.jpg"} fill={true} alt="Banner Image"/></Link>
               </div>
             </aside>
           </div>

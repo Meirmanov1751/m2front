@@ -17,7 +17,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/1.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/1.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-search"/>
 								</span>
@@ -35,7 +35,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href="#ltn__inline_description_1" data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "/assets/img/gallery/2.jpg"} alt="Image"/>
+                  <Image  src={"/assets/img/gallery/2.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="far fa-file-alt"/>
 								</span>
@@ -53,7 +53,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href="//www.youtube.com/embed/6v2L2UGZJAM?version=3" data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/3.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/3.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fab fa-youtube"/>
 								</span>
@@ -71,7 +71,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href="https://player.vimeo.com/video/47362400" data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/4.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/4.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fab fa-vimeo-v"/>
 								</span>
@@ -89,7 +89,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "/assets/media/1.mp4"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "/assets/img/gallery/5.jpg"} alt="Image"/>
+                  <Image  src={"/assets/img/gallery/5.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-video"/>
 								</span>
@@ -109,7 +109,7 @@ class PortfolioV1 extends Component {
                 <a
                   href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1575.9076122223137!2d144.96590401578402!3d-37.81779982944919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b6af832249%3A0xe39e415e49a7c44e!2sFlinders%20Street%20Railway%20Station!5e0!3m2!1sen!2sbd!4v1598113544515!5m2!1sen!2sbd"
                   data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/6.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/6.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-map-marker-alt"/>
 								</span>
@@ -128,7 +128,7 @@ class PortfolioV1 extends Component {
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection"
                    data-bs-lc-caption="Your caption Here">
-                  <Image src={publicUrl + "assets/img/gallery/7.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/7.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fab fa-acquisitions-incorporated"/>
 								</span>
@@ -146,7 +146,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "img/gallery/no-image.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/8.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/8.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-not-equal"/>
 								</span>
@@ -164,7 +164,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/9.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/9.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-search"/>
 								</span>
@@ -182,7 +182,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/10.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/10.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-search"/>
 								</span>
@@ -200,7 +200,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/1.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/1.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-search"/>
 								</span>
@@ -218,7 +218,7 @@ class PortfolioV1 extends Component {
             <div className="ltn__gallery-item-inner">
               <div className="ltn__gallery-item-img">
                 <a href={publicUrl + "assets/img/gallery/1.jpg"} data-rel="lightcase:myCollection">
-                  <Image src={publicUrl + "assets/img/gallery/2.jpg"} alt="Image"/>
+                  <Image  src={"assets/img/gallery/2.jpg"} fill={true} alt="Image"/>
                   <span className="ltn__gallery-action-icon">
 								<i className="fas fa-search"/>
 								</span>

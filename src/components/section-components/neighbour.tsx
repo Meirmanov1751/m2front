@@ -26,10 +26,10 @@ class Neighbour extends Component {
                 className="ltn__tab-menu ltn__tab-menu-3--- ltn__tab-menu-4 ltn__tab-menu-top-right-- text-uppercase--- text-center">
                 <div className="nav">
                   <a className="active show" data-bs-toggle="tab" href="#liton_tab_4_1"><Image
-                    src={publicUrl + "assets/img/neighbour/1.jpg"} alt="#"/></a>
-                  <a data-bs-toggle="tab" href="#liton_tab_4_2"><Image src={publicUrl + "assets/img/neighbour/2.jpg"}
+                     src={"assets/img/neighbour/1.jpg"} fill={true} alt="#"/></a>
+                  <a data-bs-toggle="tab" href="#liton_tab_4_2"><Image  src={"assets/img/neighbour/2.jpg"} fill={true}
                                                                        alt="#"/></a>
-                  <a data-bs-toggle="tab" href="#liton_tab_4_3"><Image src={publicUrl + "assets/img/neighbour/3.jpg"}
+                  <a data-bs-toggle="tab" href="#liton_tab_4_3"><Image  src={"assets/img/neighbour/3.jpg"} fill={true}
                                                                        alt="#"/></a>
                 </div>
               </div>
@@ -39,13 +39,13 @@ class Neighbour extends Component {
                     <div className="row">
                       <div className="col-lg-8">
                         <div className="neighbour-apartments-img">
-                          <Image src={publicUrl + "assets/img/neighbour/1.jpg"} alt="#"/>
+                          <Image  src={"assets/img/neighbour/1.jpg"} fill={true} alt="#"/>
                         </div>
                       </div>
                       <div className="col-lg-4">
                         <div className="ltn__search-by-place-item neighbour-apartments-item">
                           <div className="search-by-place-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true}
                                                                  alt="#"/></Link>
                             <div className="search-by-place-badge">
                               <ul>
@@ -75,13 +75,13 @@ class Neighbour extends Component {
                     <div className="row">
                       <div className="col-lg-8">
                         <div className="neighbour-apartments-img">
-                          <Image src={publicUrl + "assets/img/neighbour/2.jpg"} alt="#"/>
+                          <Image  src={"assets/img/neighbour/2.jpg"} fill={true} alt="#"/>
                         </div>
                       </div>
                       <div className="col-lg-4">
                         <div className="ltn__search-by-place-item neighbour-apartments-item">
                           <div className="search-by-place-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"}
+                            <Link href="/product-details"><Image src={"assets/img/product-3/2.jpg"} fill={true}
                                                                  alt="#"/></Link>
                             <div className="search-by-place-badge">
                               <ul>
@@ -111,13 +111,13 @@ class Neighbour extends Component {
                     <div className="row">
                       <div className="col-lg-8">
                         <div className="neighbour-apartments-img">
-                          <Image src={publicUrl + "assets/img/neighbour/3.jpg"} alt="#"/>
+                          <Image  src={"assets/img/neighbour/3.jpg"} fill={true} alt="#"/>
                         </div>
                       </div>
                       <div className="col-lg-4">
                         <div className="ltn__search-by-place-item neighbour-apartments-item">
                           <div className="search-by-place-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/4.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/4.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                             <div className="search-by-place-badge">
                               <ul>
@@ -171,7 +171,7 @@ class Neighbour extends Component {
                       <div id="faq-item-2-2" className="collapse show---" data-bs-parent="#accordion_2">
                         <div className="card-body">
                           <div className="ltn__video-img alignleft">
-                            <Image src={publicUrl + "assets/img/bg/17.jpg"} alt="video popup bg image"/>
+                            <Image  src={"assets/img/bg/17.jpg"} fill={true} alt="video popup bg image"/>
                             <a className="ltn__video-icon-2 ltn__video-icon-2-small ltn__video-icon-2-border----"
                                href="https://www.youtube.com/embed/LjCzPp-MK48?autoplay=1&showinfo=0"
                                data-rel="lightcase:myCollection">

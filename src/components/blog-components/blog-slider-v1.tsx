@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import Link from 'next/link';
 import Image from 'next/image'
 import img1 from '../../assets/img/3.jpg'
+import {Swiper, SwiperSlide} from "swiper/react";
 
 class BlogSlider extends Component <any> {
   render() {
@@ -19,12 +20,12 @@ class BlogSlider extends Component <any> {
               </div>
             </div>
           </div>
-          <div className="row  ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal">
+          <Swiper slidesPerView={3} className="row  ltn__blog-slider-one-active slick-arrow-1 ltn__blog-item-3-normal">
             {/* Blog Item */}
-            <div className="col-lg-12">
+            <SwiperSlide className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details"><Image src={img1}  className="w-full" layout="responsive" objectFit="contain" alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -51,13 +52,13 @@ class BlogSlider extends Component <any> {
                   </div>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
             {/* Blog Item */}
             {/* Blog Item */}
-            <div className="col-lg-12">
+            <SwiperSlide className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details"><Image src={img1}  className="w-full" layout="responsive" objectFit="contain" alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -84,13 +85,13 @@ class BlogSlider extends Component <any> {
                   </div>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
             {/* Blog Item */}
             {/* Blog Item */}
-            <div className="col-lg-12">
+            <SwiperSlide className="col-lg-12">
               <div className="ltn__blog-item ltn__blog-item-3">
                 <div className="ltn__blog-img">
-                  <Link href="/blog-details"><Image src={img1} alt="#"/></Link>
+                  <Link href="/blog-details"><Image src={img1}  className="w-full" layout="responsive" objectFit="contain" alt="#"/></Link>
                 </div>
                 <div className="ltn__blog-brief">
                   <div className="ltn__blog-meta">
@@ -117,10 +118,10 @@ class BlogSlider extends Component <any> {
                   </div>
                 </div>
               </div>
-            </div>
+            </SwiperSlide>
             {/* Blog Item */}
 
-          </div>
+          </Swiper>
         </div>
       </div>
     )

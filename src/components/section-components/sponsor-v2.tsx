@@ -13,32 +13,32 @@ class SponsorV2 extends Component {
 
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/1.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/1.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/2.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/2.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/3.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/3.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/4.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/4.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/5.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/5.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
           <div className="col-lg-12">
             <div className="ltn__brand-logo-item">
-              <Image src={publicUrl + "assets/img/brand-logo/3.png"} alt="Brand Logo"/>
+              <Image  src={"assets/img/brand-logo/3.png"} fill={true} alt="Brand Logo"/>
             </div>
           </div>
         </div>

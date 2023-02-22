@@ -58,11 +58,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/1.jpg"}
+                            <Link href="/product-details"><Image src={"assets/img/product-3/1.jpg"} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -127,11 +127,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"}
+                            <Link href="/product-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -196,11 +196,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -265,11 +265,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/4.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/4.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -334,11 +334,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/5.jpg"}
+                            <Link href="/product-details"><Image   src={"assets/img/product-3/5.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -403,11 +403,11 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-4 col-sm-6 col-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5 text-center---">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/6.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/6.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                             </div>
@@ -488,7 +488,7 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/1.jpg"}
+                            <Link href="/product-details"><Image src={"assets/img/product-3/1.jpg"} fill={true}
                                                                  alt="#"/></Link>
                           </div>
                           <div className="product-info">
@@ -526,7 +526,7 @@ class ShopGridV1 extends Component {
                           <div className="product-info-bottom">
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                               <div className="agent-brief go-top">
@@ -563,7 +563,7 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/2.jpg"}
+                            <Link href="/product-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                  alt="#"/></Link>
                           </div>
                           <div className="product-info">
@@ -601,7 +601,7 @@ class ShopGridV1 extends Component {
                           <div className="product-info-bottom">
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                               <div className="agent-brief go-top">
@@ -638,7 +638,7 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/3.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/3.jpg"} fill={true}
                                                                  alt="#"/></Link>
                           </div>
                           <div className="product-info">
@@ -676,7 +676,7 @@ class ShopGridV1 extends Component {
                           <div className="product-info-bottom">
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                               <div className="agent-brief go-top">
@@ -713,7 +713,7 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/4.jpg"}
+                            <Link href="/product-details"><Image  src={"assets/img/product-3/4.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                           </div>
                           <div className="product-info">
@@ -751,7 +751,7 @@ class ShopGridV1 extends Component {
                           <div className="product-info-bottom">
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                               <div className="agent-brief go-top">
@@ -788,7 +788,7 @@ class ShopGridV1 extends Component {
                       <div className="col-lg-12">
                         <div className="ltn__product-item ltn__product-item-4 ltn__product-item-5">
                           <div className="product-img">
-                            <Link href="/product-details"><Image src={publicUrl + "assets/img/product-3/5.jpg"}
+                            <Link href="/product-details"><Image   src={"assets/img/product-3/5.jpg"} fill={true} fill={true}
                                                                  alt="#"/></Link>
                           </div>
                           <div className="product-info">
@@ -826,7 +826,7 @@ class ShopGridV1 extends Component {
                           <div className="product-info-bottom">
                             <div className="real-estate-agent">
                               <div className="agent-img">
-                                <Link href="/team-details"><Image src={publicUrl + "assets/img/blog/author.jpg"}
+                                <Link href="/team-details"><Image src={"assets/img/blog/author.jpg"} fill={true}
                                                                   alt="#"/></Link>
                               </div>
                               <div className="agent-brief go-top">
@@ -897,7 +897,7 @@ class ShopGridV1 extends Component {
                     <div className="row">
                       <div className="col-12">
                         <div className="modal-product-img">
-                          <Image src={publicUrl + "assets/img/product/7.png"} alt="#"/>
+                          <Image  src={"assets/img/product/7.png"} fill={true} alt="#"/>
                         </div>
                         <div className="modal-product-info go-top">
                           <h5><Link href="/product-details">Brake Conversion Kit</Link></h5>
@@ -912,7 +912,7 @@ class ShopGridV1 extends Component {
                           <p>We want to give you <b>10% discount</b> for your first order, <br/> Use discount code at
                             checkout</p>
                           <div className="payment-method">
-                            <Image src={publicUrl + "assets/img/icons/payment.png"} alt="#"/>
+                            <Image  src={"assets/img/icons/payment.png"} fill={true} alt="#"/>
                           </div>
                         </div>
                       </div>
@@ -941,7 +941,7 @@ class ShopGridV1 extends Component {
                     <div className="row">
                       <div className="col-lg-6 col-12">
                         <div className="modal-product-img">
-                          {/*<Image src={publicUrl + "assets/img/product/4.png"} alt="#"/>*/}
+                          {/*<Image  src={"assets/img/product/4.png"} fill={true} alt="#"/>*/}
                         </div>
                       </div>
                       <div className="col-lg-6 col-12">
@@ -1027,7 +1027,7 @@ class ShopGridV1 extends Component {
                     <div className="row">
                       <div className="col-12">
                         <div className="modal-product-img">
-                          <Image src={publicUrl + "assets/img/product/1.png"} alt="#"/>
+                          <Image   src={"assets/img/product/1.png"} fill={true} fill={true} alt="#"/>
                         </div>
                         <div className="modal-product-info go-top">
                           <h5 className="go-top"><Link href="/product-details">Brake Conversion Kit</Link></h5>
@@ -1043,7 +1043,7 @@ class ShopGridV1 extends Component {
                           <p>We want to give you <b>10% discount</b> for your first order, <br/> Use discount code at
                             checkout</p>
                           <div className="payment-method">
-                            <Image src={publicUrl + "assets/img/icons/payment.png"} alt="#"/>
+                            <Image  src={"assets/img/icons/payment.png"} fill={true} alt="#"/>
                           </div>
                         </div>
                       </div>
